@@ -1,0 +1,22 @@
+{
+  "name": "streamdeck",
+  "version": "1.0.0",
+  "description": "Wrapper around elgato-stream-deck",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mrmakeit/streamdeck.git"
+  },
+  "author": "Blixa Morgan <MrMakeIt> (blixa@projectmakeit.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mrmakeit/streamdeck/issues"
+  },
+  "homepage": "https://github.com/mrmakeit/streamdeck#readme",
+  "dependencies": {
+    "elgato-stream-deck": "^2.0.0"
+  }
+}
