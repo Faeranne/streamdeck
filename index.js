@@ -23,11 +23,8 @@ class Deck{
   }
   draw(){
     let deck = this;
-    console.log(this.pages[this.currentPage]);
     for(var index = 0; index<15; index++){
       let key = this.pages[this.currentPage][index];
-      console.log(index);
-      console.log(key);
       if(key && key instanceof Key){
         deck.device.fillImage(index,key.image);
       }else{
