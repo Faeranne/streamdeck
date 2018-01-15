@@ -21,24 +21,19 @@ class Deck{
       }
     })
   }
-  setPage(index){
-    return this.currentPage;
-  }
-  addPage(name,keys){
-    this.pages.push(keys);
-    return this.pages.length-1;
-  }
   draw(){
     let deck = this;
-    this.pages[this.currentPage].forEach(function(key,index){
+    console.log(this.pages[this.currentPage]);
+    for(var index = 0; index<15; index++){
+      let key = this.pages[this.currentPage][index];
       console.log(index);
       console.log(key);
-      if(key instanceof Key){
+      if(key && key instanceof Key){
         deck.device.fillImage(index,key.image);
       }else{
         deck.device.fillColor(index,0,0,0);
       }
-    })
+    }
   }
 }
 
