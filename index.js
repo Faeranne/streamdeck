@@ -35,6 +35,8 @@ class Deck{
       console.log(key);
       if(key instanceof Key){
         deck.device.fillImage(index,key.image);
+      }else{
+        deck.device.fillColor(index,0,0,0);
       }
     })
   }
