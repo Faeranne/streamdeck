@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/mrmakeit/streamdeck#readme",
   "dependencies": {
-    "elgato-stream-deck": "^2.0.0"
+    "elgato-stream-deck": "^2.0.0",
+    "sharp": "^0.19.0"
   }
 }
